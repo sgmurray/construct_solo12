@@ -1,0 +1,106 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12
+-- Install configuration: ""
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_body.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_foot.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_upper_leg_right_side.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_lower_leg_right_side.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_foot.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_lower_leg_left_side.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_lower_leg_left_side.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_upper_leg_right_side.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_body.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_lower_leg_right_side.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_upper_leg_left_side.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_upper_leg_left_side.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_body.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_upper_leg_right_side.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_lower_leg_right_side.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_lower_leg_left_side.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_lower_leg_left_side.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_upper_leg_right_side.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_body.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_lower_leg_right_side.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_upper_leg_left_side.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_upper_leg_left_side.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/sphere.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/checker_blue.png
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/cube.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/plane.mtl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/cylinder.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_coordinate_systems_2.png
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_coordinate_systems_3.png
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_hip_fe_fl.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/_solo12_visualisation_model.PDF
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_lower_leg_right_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_coordinate_systems.png
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_coordinate_systems_4.png
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo_12_base.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_hip_fe_fr.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_upper_leg_left_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_hip_fe_hr.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_upper_leg_right_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_hip_fe_hl.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_lower_leg_left_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_body.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_lower_leg_left_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_upper_leg_right_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_foot.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_upper_leg_left_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_lower_leg_right_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_body.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_lower_leg_v2_left_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_lower_leg_left_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_lower_leg_v2_right_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_upper_leg_right_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_upper_leg_left_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_lower_leg_right_side.stl
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/plane.obj
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/ros2_control
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/ros2_control/system_solo12.ros2_control.xacro
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/urdf
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/urdf/leg.xacro
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/urdf/system_solo12_description.urdf.xacro
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/urdf/system_solo12.urdf.xacro
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/urdf/crane.urdf.xacro
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ament_index/resource_index/package_run_dependencies/ros2_description_solo12
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ament_index/resource_index/parent_prefix_path/ros2_description_solo12
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/environment/ament_prefix_path.sh
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/environment/ament_prefix_path.dsv
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/environment/path.sh
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/environment/path.dsv
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/local_setup.bash
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/local_setup.sh
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/local_setup.zsh
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/local_setup.dsv
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.dsv
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ament_index/resource_index/packages/ros2_description_solo12
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/cmake/ros2_description_solo12Config.cmake
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/cmake/ros2_description_solo12Config-version.cmake
+-- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.xml

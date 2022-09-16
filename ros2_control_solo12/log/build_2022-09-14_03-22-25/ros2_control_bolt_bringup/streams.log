@@ -1,0 +1,55 @@
+[0.031s] Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_control_bolt_bringup -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup
+[0.121s] -- The C compiler identification is GNU 9.4.0
+[0.221s] -- The CXX compiler identification is GNU 9.4.0
+[0.228s] -- Check for working C compiler: /usr/bin/cc
+[0.342s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.343s] -- Detecting C compiler ABI info
+[0.474s] -- Detecting C compiler ABI info - done
+[0.506s] -- Detecting C compile features
+[0.506s] -- Detecting C compile features - done
+[0.514s] -- Check for working CXX compiler: /usr/bin/c++
+[0.659s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.659s] -- Detecting CXX compiler ABI info
+[0.818s] -- Detecting CXX compiler ABI info - done
+[0.849s] -- Detecting CXX compile features
+[0.854s] -- Detecting CXX compile features - done
+[0.860s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.927s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.927s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.783s] -- Configuring done
+[1.802s] -- Generating done
+[1.810s] -- Build files have been written to: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup
+[1.822s] Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_control_bolt_bringup -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup
+[1.824s] Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup -- -j4 -l4
+[1.930s] Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup -- -j4 -l4
+[2.020s] Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup
+[2.050s] -- Install configuration: ""
+[2.050s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/config
+[2.050s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/config/bolt_controllers.yaml
+[2.051s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/config/bolt_joint_trajectory_publisher.yaml
+[2.051s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/config/bolt_forward_position_publisher.yaml
+[2.051s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/config/bolt_gazebo_forward_controller_position.yaml
+[2.053s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/launch
+[2.053s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/launch/bolt_joint_trajectory_publisher.launch.py
+[2.053s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/launch/bolt.launch.py
+[2.054s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/launch/bolt_system_position_only_gazebo.launch.py
+[2.054s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/launch/test_forward_position_controller.launch.py
+[2.054s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/launch/bolt_system_position_only.launch.py
+[2.054s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/world
+[2.054s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/world/bolt_world.world
+[2.055s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ament_index/resource_index/package_run_dependencies/ros2_control_bolt_bringup
+[2.055s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ament_index/resource_index/parent_prefix_path/ros2_control_bolt_bringup
+[2.055s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/environment/ament_prefix_path.sh
+[2.055s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/environment/ament_prefix_path.dsv
+[2.055s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/environment/path.sh
+[2.055s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/environment/path.dsv
+[2.079s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/local_setup.bash
+[2.080s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/local_setup.sh
+[2.080s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/local_setup.zsh
+[2.080s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/local_setup.dsv
+[2.081s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.dsv
+[2.081s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ament_index/resource_index/packages/ros2_control_bolt_bringup
+[2.098s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/cmake/ros2_control_bolt_bringupConfig.cmake
+[2.098s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/cmake/ros2_control_bolt_bringupConfig-version.cmake
+[2.098s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.xml
+[2.098s] Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup

@@ -1,0 +1,259 @@
+[0.260s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.260s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], bazel_args=None, bazel_task=None, build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2c97a58340>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2c97a58340>, verb_name='build', verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x7f2c97a58c70>)
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.312s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['bazel', 'cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'bazel'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control_bolt' with type 'ros.ament_cmake' and name 'ros2_control_bolt'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt_bringup) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt_bringup) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt_bringup) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt_bringup) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt_bringup) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt_bringup) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt_bringup) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control_bolt_bringup) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control_bolt_bringup' with type 'ros.ament_cmake' and name 'ros2_control_bolt_bringup'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_description_solo12) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_description_solo12) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_description_solo12) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_description_solo12) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_description_solo12) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_description_solo12) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_description_solo12) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_description_solo12) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_description_solo12) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_description_solo12' with type 'ros.ament_cmake' and name 'ros2_description_solo12'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_hardware_interface_bolt) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_hardware_interface_bolt) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_hardware_interface_bolt) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_hardware_interface_bolt) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_hardware_interface_bolt) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_hardware_interface_bolt) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_hardware_interface_bolt) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_hardware_interface_bolt) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_hardware_interface_bolt) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_hardware_interface_bolt' with type 'ros.ament_cmake' and name 'ros2_hardware_interface_bolt'
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.357s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/foxy
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'bazel_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'bazel_task' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_bolt_bringup' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup', 'merge_install': False, 'path': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_control_bolt_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'bazel_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'bazel_task' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros2_description_solo12' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_description_solo12' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12', 'merge_install': False, 'path': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_description_solo12', 'symlink_install': False, 'test_result_base': None}
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'bazel_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'bazel_task' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'cmake_target' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'cmake_clean_first' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'cmake_force_configure' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'ament_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'ros2_hardware_interface_bolt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.444s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_hardware_interface_bolt' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_hardware_interface_bolt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt', 'merge_install': False, 'path': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_hardware_interface_bolt', 'symlink_install': False, 'test_result_base': None}
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'bazel_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'bazel_task' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'cmake_target' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'cmake_clean_first' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'cmake_force_configure' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'ament_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bolt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.446s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_bolt' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt', 'merge_install': False, 'path': '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_control_bolt', 'symlink_install': False, 'test_result_base': None}
+[0.447s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.452s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_control_bolt_bringup' with build type 'ament_cmake'
+[0.452s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_control_bolt_bringup'
+[0.457s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.462s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_hardware_interface_bolt' with build type 'ament_cmake'
+[0.463s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_hardware_interface_bolt'
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.471s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_description_solo12' with build type 'ament_cmake'
+[0.471s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_description_solo12'
+[0.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_control_bolt_bringup -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_hardware_interface_bolt': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_hardware_interface_bolt -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_description_solo12 -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12
+[2.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_description_solo12 -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12
+[2.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12 -- -j4 -l4
+[2.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_control_bolt_bringup -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup
+[2.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup -- -j4 -l4
+[2.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12 -- -j4 -l4
+[2.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup -- -j4 -l4
+[2.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12
+[2.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup
+[2.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_bolt_bringup)
+[2.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_control_bolt_bringup
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup' for CMake module files
+[2.571s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup' for CMake config files
+[2.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_bolt_bringup', 'cmake_prefix_path')
+[2.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/hook/cmake_prefix_path.ps1'
+[2.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/hook/cmake_prefix_path.dsv'
+[2.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/hook/cmake_prefix_path.sh'
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/bin'
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/lib/pkgconfig/ros2_control_bolt_bringup.pc'
+[2.615s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/lib/python3.8/site-packages'
+[2.615s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/bin'
+[2.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.ps1'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.dsv'
+[2.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.sh'
+[2.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.bash'
+[2.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.zsh'
+[2.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/colcon-core/packages/ros2_control_bolt_bringup)
+[2.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_description_solo12)
+[2.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12' for CMake module files
+[2.688s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12' for CMake config files
+[2.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_description_solo12', 'cmake_prefix_path')
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/hook/cmake_prefix_path.ps1'
+[2.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/hook/cmake_prefix_path.dsv'
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/hook/cmake_prefix_path.sh'
+[2.693s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/bin'
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/lib/pkgconfig/ros2_description_solo12.pc'
+[2.698s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/lib/python3.8/site-packages'
+[2.699s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/bin'
+[2.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.ps1'
+[2.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.dsv'
+[2.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.sh'
+[2.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.bash'
+[2.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.zsh'
+[2.724s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/colcon-core/packages/ros2_description_solo12)
+[2.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_bolt_bringup)
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup' for CMake module files
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup' for CMake config files
+[2.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_bolt_bringup', 'cmake_prefix_path')
+[2.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/hook/cmake_prefix_path.ps1'
+[2.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/hook/cmake_prefix_path.dsv'
+[2.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/hook/cmake_prefix_path.sh'
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/bin'
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/lib/pkgconfig/ros2_control_bolt_bringup.pc'
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/lib/python3.8/site-packages'
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/bin'
+[2.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.ps1'
+[2.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.dsv'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.sh'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.bash'
+[2.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/ros2_control_bolt_bringup/package.zsh'
+[2.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_control_bolt_bringup/share/colcon-core/packages/ros2_control_bolt_bringup)
+[2.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_description_solo12)
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12' for CMake module files
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12' for CMake config files
+[2.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_description_solo12', 'cmake_prefix_path')
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/hook/cmake_prefix_path.ps1'
+[2.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/hook/cmake_prefix_path.dsv'
+[2.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/hook/cmake_prefix_path.sh'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/bin'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/lib/pkgconfig/ros2_description_solo12.pc'
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/lib/python3.8/site-packages'
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/bin'
+[2.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.ps1'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.dsv'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.sh'
+[2.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.bash'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.zsh'
+[2.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/colcon-core/packages/ros2_description_solo12)
+[5.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_hardware_interface_bolt' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_hardware_interface_bolt -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt
+[5.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_hardware_interface_bolt)
+[5.593s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt' for CMake module files
+[5.594s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt' for CMake config files
+[5.594s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt/bin'
+[5.594s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt/lib/pkgconfig/ros2_hardware_interface_bolt.pc'
+[5.595s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt/lib/python3.8/site-packages'
+[5.595s] Level 1:colcon.colcon_core.environment:checking '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt/bin'
+[5.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt/share/ros2_hardware_interface_bolt/package.ps1'
+[5.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt/share/ros2_hardware_interface_bolt/package.dsv'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt/share/ros2_hardware_interface_bolt/package.sh'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt/share/ros2_hardware_interface_bolt/package.bash'
+[5.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt/share/ros2_hardware_interface_bolt/package.zsh'
+[5.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt/share/colcon-core/packages/ros2_hardware_interface_bolt)
+[5.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.612s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[5.612s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.624s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.320s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[12.320s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/local_setup.ps1'
+[12.323s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/_local_setup_util_ps1.py'
+[12.325s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/setup.ps1'
+[12.326s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/local_setup.sh'
+[12.327s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/_local_setup_util_sh.py'
+[12.327s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/setup.sh'
+[12.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/local_setup.bash'
+[12.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/setup.bash'
+[12.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/local_setup.zsh'
+[12.331s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/setup.zsh'

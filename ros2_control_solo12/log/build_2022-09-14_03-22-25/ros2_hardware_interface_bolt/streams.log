@@ -1,0 +1,81 @@
+[0.027s] Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_hardware_interface_bolt': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_hardware_interface_bolt -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt
+[0.061s] -- Package version (ROS package.xml): 1.0.0
+[0.177s] -- The CXX compiler identification is GNU 9.4.0
+[0.188s] -- Check for working CXX compiler: /usr/bin/c++
+[0.352s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.354s] -- Detecting CXX compiler ABI info
+[0.489s] -- Detecting CXX compiler ABI info - done
+[0.506s] -- Detecting CXX compile features
+[0.507s] -- Detecting CXX compile features - done
+[0.522s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.532s] -- Performing Test R-pedantic
+[0.679s] -- Performing Test R-pedantic - Success
+[0.680s] -- Performing Test R-Wno-long-long
+[0.837s] -- Performing Test R-Wno-long-long - Success
+[0.838s] -- Performing Test R-Wall
+[1.031s] -- Performing Test R-Wall - Success
+[1.031s] -- Performing Test R-Wextra
+[1.218s] -- Performing Test R-Wextra - Success
+[1.219s] -- Performing Test R-Wcast-align
+[1.431s] -- Performing Test R-Wcast-align - Success
+[1.432s] -- Performing Test R-Wcast-qual
+[1.827s] -- Performing Test R-Wcast-qual - Success
+[1.828s] -- Performing Test R-Wformat
+[2.061s] -- Performing Test R-Wformat - Success
+[2.062s] -- Performing Test R-Wwrite-strings
+[2.359s] -- Performing Test R-Wwrite-strings - Success
+[2.359s] -- Performing Test R-Wconversion
+[2.542s] -- Performing Test R-Wconversion - Success
+[2.544s] -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+[2.545s] CMake Warning at cmake/doxygen.cmake:496 (MESSAGE):
+[2.545s]   Failed to find Doxygen, documentation will not be generated.
+[2.545s] Call Stack (most recent call first):
+[2.545s]   cmake/post-project.cmake:59 (_SETUP_PROJECT_DOCUMENTATION)
+[2.545s]   CMakeLists.txt:45 (project)
+[2.546s] 
+[2.546s] 
+[3.091s] -- Default C++ standard: 201402
+[3.092s] -- Minimal C++ standard upgraded to 11
+[3.092s] -- C++ standard sufficient: Minimal required 11, currently defined: 14
+[3.092s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.139s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.144s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.498s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.563s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.661s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.699s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.880s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.882s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.884s] -- Looking for C++ include pthread.h
+[3.987s] -- Looking for C++ include pthread.h - found
+[3.987s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.092s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.093s] -- Looking for pthread_create in pthreads
+[4.179s] -- Looking for pthread_create in pthreads - not found
+[4.179s] -- Looking for pthread_create in pthread
+[4.270s] -- Looking for pthread_create in pthread - found
+[4.272s] -- Found Threads: TRUE  
+[4.474s] -- Found hardware_interface: 0.10.1 (/opt/ros/foxy/share/hardware_interface/cmake)
+[5.086s] CMake Error at CMakeLists.txt:57 (find_package):
+[5.086s]   By not providing "Findodri_control_interface.cmake" in CMAKE_MODULE_PATH
+[5.086s]   this project has asked CMake to find a package configuration file provided
+[5.086s]   by "odri_control_interface", but CMake did not find one.
+[5.086s] 
+[5.087s]   Could not find a package configuration file provided by
+[5.087s]   "odri_control_interface" with any of the following names:
+[5.087s] 
+[5.087s]     odri_control_interfaceConfig.cmake
+[5.087s]     odri_control_interface-config.cmake
+[5.087s] 
+[5.087s]   Add the installation prefix of "odri_control_interface" to
+[5.087s]   CMAKE_PREFIX_PATH or set "odri_control_interface_DIR" to a directory
+[5.087s]   containing one of the above files.  If "odri_control_interface" provides a
+[5.088s]   separate development package or SDK, be sure it has been installed.
+[5.088s] 
+[5.088s] 
+[5.089s] -- Configuring incomplete, errors occurred!
+[5.090s] See also "/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_hardware_interface_bolt/CMakeFiles/CMakeOutput.log".
+[5.090s] See also "/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_hardware_interface_bolt/CMakeFiles/CMakeError.log".
+[5.105s] Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_hardware_interface_bolt' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_hardware_interface_bolt -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_hardware_interface_bolt

@@ -1,0 +1,24 @@
+CMake Warning at cmake/doxygen.cmake:496 (MESSAGE):
+  Failed to find Doxygen, documentation will not be generated.
+Call Stack (most recent call first):
+  cmake/post-project.cmake:59 (_SETUP_PROJECT_DOCUMENTATION)
+  CMakeLists.txt:45 (project)
+
+
+CMake Error at CMakeLists.txt:57 (find_package):
+  By not providing "Findodri_control_interface.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "odri_control_interface", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "odri_control_interface" with any of the following names:
+
+    odri_control_interfaceConfig.cmake
+    odri_control_interface-config.cmake
+
+  Add the installation prefix of "odri_control_interface" to
+  CMAKE_PREFIX_PATH or set "odri_control_interface_DIR" to a directory
+  containing one of the above files.  If "odri_control_interface" provides a
+  separate development package or SDK, be sure it has been installed.
+
+

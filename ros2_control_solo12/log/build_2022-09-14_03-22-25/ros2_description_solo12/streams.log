@@ -1,0 +1,112 @@
+[0.035s] Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_description_solo12 -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12
+[0.150s] -- The C compiler identification is GNU 9.4.0
+[0.247s] -- The CXX compiler identification is GNU 9.4.0
+[0.255s] -- Check for working C compiler: /usr/bin/cc
+[0.387s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.387s] -- Detecting C compiler ABI info
+[0.507s] -- Detecting C compiler ABI info - done
+[0.522s] -- Detecting C compile features
+[0.523s] -- Detecting C compile features - done
+[0.531s] -- Check for working CXX compiler: /usr/bin/c++
+[0.687s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.687s] -- Detecting CXX compiler ABI info
+[0.811s] -- Detecting CXX compiler ABI info - done
+[0.834s] -- Detecting CXX compile features
+[0.836s] -- Detecting CXX compile features - done
+[0.839s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.902s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.902s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.735s] -- Configuring done
+[1.739s] -- Generating done
+[1.741s] -- Build files have been written to: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12
+[1.753s] Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theconstruct/Solo12_ws/src/ros2_control_solo12/ros2_description_solo12 -DCMAKE_INSTALL_PREFIX=/home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12
+[1.759s] Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12 -- -j4 -l4
+[1.880s] Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12 -- -j4 -l4
+[1.979s] Invoking command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12
+[2.014s] -- Install configuration: ""
+[2.015s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes
+[2.015s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj
+[2.016s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot
+[2.016s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_body.mtl
+[2.017s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_foot.mtl
+[2.017s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_upper_leg_right_side.obj
+[2.018s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_lower_leg_right_side.mtl
+[2.018s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_foot.obj
+[2.019s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_lower_leg_left_side.mtl
+[2.019s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_lower_leg_left_side.obj
+[2.020s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_upper_leg_right_side.mtl
+[2.024s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_body.obj
+[2.027s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_lower_leg_right_side.obj
+[2.028s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_upper_leg_left_side.obj
+[2.029s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/with_foot/solo_upper_leg_left_side.mtl
+[2.029s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot
+[2.030s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_body.mtl
+[2.030s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_upper_leg_right_side.obj
+[2.037s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_lower_leg_right_side.mtl
+[2.037s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_lower_leg_left_side.mtl
+[2.038s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_lower_leg_left_side.obj
+[2.051s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_upper_leg_right_side.mtl
+[2.051s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_body.obj
+[2.051s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_lower_leg_right_side.obj
+[2.051s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_upper_leg_left_side.obj
+[2.051s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/obj/without_foot/solo_upper_leg_left_side.mtl
+[2.051s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/sphere.obj
+[2.052s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/checker_blue.png
+[2.052s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/cube.obj
+[2.052s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/plane.mtl
+[2.052s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/cylinder.obj
+[2.052s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl
+[2.052s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12
+[2.053s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_coordinate_systems_2.png
+[2.053s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_coordinate_systems_3.png
+[2.053s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_hip_fe_fl.stl
+[2.054s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/_solo12_visualisation_model.PDF
+[2.054s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_lower_leg_right_side.stl
+[2.055s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_coordinate_systems.png
+[2.056s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_coordinate_systems_4.png
+[2.056s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo_12_base.stl
+[2.057s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_hip_fe_fr.stl
+[2.057s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_upper_leg_left_side.stl
+[2.058s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_hip_fe_hr.stl
+[2.060s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_upper_leg_right_side.stl
+[2.061s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_hip_fe_hl.stl
+[2.062s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/solo12/solo12_lower_leg_left_side.stl
+[2.063s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot
+[2.079s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_body.stl
+[2.095s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_lower_leg_left_side.stl
+[2.095s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_upper_leg_right_side.stl
+[2.096s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_foot.stl
+[2.096s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_upper_leg_left_side.stl
+[2.096s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/with_foot/solo_lower_leg_right_side.stl
+[2.096s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot
+[2.096s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_body.stl
+[2.101s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_lower_leg_v2_left_side.stl
+[2.101s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_lower_leg_left_side.stl
+[2.102s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_lower_leg_v2_right_side.stl
+[2.102s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_upper_leg_right_side.stl
+[2.112s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_upper_leg_left_side.stl
+[2.112s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/stl/without_foot/solo_lower_leg_right_side.stl
+[2.113s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/meshes/plane.obj
+[2.116s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/ros2_control
+[2.116s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/ros2_control/system_solo12.ros2_control.xacro
+[2.116s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/urdf
+[2.117s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/urdf/leg.xacro
+[2.117s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/urdf/system_solo12_description.urdf.xacro
+[2.117s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/urdf/system_solo12.urdf.xacro
+[2.117s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/urdf/crane.urdf.xacro
+[2.117s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ament_index/resource_index/package_run_dependencies/ros2_description_solo12
+[2.117s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ament_index/resource_index/parent_prefix_path/ros2_description_solo12
+[2.118s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/environment/ament_prefix_path.sh
+[2.118s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/environment/ament_prefix_path.dsv
+[2.118s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/environment/path.sh
+[2.132s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/environment/path.dsv
+[2.132s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/local_setup.bash
+[2.138s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/local_setup.sh
+[2.138s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/local_setup.zsh
+[2.139s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/local_setup.dsv
+[2.139s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.dsv
+[2.139s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ament_index/resource_index/packages/ros2_description_solo12
+[2.139s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/cmake/ros2_description_solo12Config.cmake
+[2.140s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/cmake/ros2_description_solo12Config-version.cmake
+[2.160s] -- Installing: /home/theconstruct/Solo12_ws/src/ros2_control_solo12/install/ros2_description_solo12/share/ros2_description_solo12/package.xml
+[2.212s] Invoked command in '/home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/theconstruct/Solo12_ws/src/ros2_control_solo12/build/ros2_description_solo12

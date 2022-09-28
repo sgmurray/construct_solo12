@@ -434,7 +434,7 @@ return_type SystemBoltHardware::start()
   robot_->Start();
   RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware"),"SystemBoltHardware::start(): robot->Start() method done!");
   robot_->WaitUntilReady();
-  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware::start(): robot->WaitUntilReady() method done!");
+  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware"),"SystemBoltHardware::start(): robot->WaitUntilReady() method done!");
   
 
   // set some default values
@@ -461,7 +461,7 @@ return_type SystemBoltHardware::start()
     joint_name_to_array_index_[it->first]=idx++;
 
   }
-  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware::start(): build the joint name to array index, done!");
+  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware"),"SystemBoltHardware::start(): build the joint name to array index, done!");
 
   status_ = hardware_interface::status::STARTED;
 

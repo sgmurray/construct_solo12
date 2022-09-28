@@ -423,8 +423,7 @@ return_type SystemBoltHardware::start()
   // Initialize Robot
   // robot_ = RobotFromYamlFile(info_.hardware_parameters["bolt_config_yaml"]);
   robot_ = RobotFromYamlFile(info_.hardware_parameters["odri_config_yaml"]);
-
-
+  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware"),"SystemBoltHardware::start(): Define the robot from a yaml file done!");
 
   Eigen::Vector12d des_pos;
   // des_pos << 0.0, 0.7, -1.4, -0.0, 0.7, -1.4, 0.0, -0.7, +1.4, -0.0, -0.7,
@@ -433,7 +432,10 @@ return_type SystemBoltHardware::start()
 
   //robot_->Initialize(des_pos);
   robot_->Start();
+  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware"),"SystemBoltHardware::start(): robot->Start() method done!");
   robot_->WaitUntilReady();
+  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware::start(): robot->WaitUntilReady() method done!");
+  
 
   // set some default values
   for (const hardware_interface::ComponentInfo & joint : info_.joints) {
@@ -459,7 +461,7 @@ return_type SystemBoltHardware::start()
     joint_name_to_array_index_[it->first]=idx++;
 
   }
-
+  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware::start(): build the joint name to array index, done!");
 
   status_ = hardware_interface::status::STARTED;
 

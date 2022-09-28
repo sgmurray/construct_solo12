@@ -438,18 +438,21 @@ return_type SystemBoltHardware::start()
   // set some default values
   for (const hardware_interface::ComponentInfo & joint : info_.joints) {
     if (std::isnan(hw_states_[joint.name].position)) {
-      if (joint.name == "FL_HAA" || joint.name == "HR_HFE"){
-        hw_states_[joint.name] = {0.0, 0.0, 0.0, 0.0, 0.0};
-        hw_commands_[joint.name] = {0.0, 0.0, 0.0, 0.0, 0.0};
-      }
-      else{
-        hw_states_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
-        hw_commands_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
-      }
+      // if (joint.name == "FL_HAA" || joint.name == "HR_HFE"){
+      //   hw_states_[joint.name] = {0.0, 0.0, 0.0, 0.0, 0.0};
+      //   hw_commands_[joint.name] = {0.0, 0.0, 0.0, 0.0, 0.0};
+      // }
+      // else{
+      //   hw_states_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
+      //   hw_commands_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
+      // }
+      hw_states_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
+      hw_commands_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
     }
     joint_name_to_array_index_[joint.name]=0;
   }
 
+  // build the joint name to array index
   uint idx=0;
   for (auto it = joint_name_to_array_index_.begin();
             it != joint_name_to_array_index_.end(); ++it) {

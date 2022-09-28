@@ -107,14 +107,17 @@ int main()
             positions[i] = ref;
             velocities[i] = 0.0;
             torques[i] = 0.0;
-            if (i == 0 || i == 5){
-                gain_KP[i] = 0;
-                gain_KD[i] = kd;
-            }
-            else{
-                gain_KP[i] = kp;
-                gain_KD[i] = kd;
-            }
+            // if (i == 0 || i == 5){
+            //     gain_KP[i] = 0;
+            //     gain_KD[i] = kd;
+            // }
+            // else{
+            //     gain_KP[i] = kp;
+            //     gain_KD[i] = kd;
+            // }
+            gain_KP[i] = kp;
+            gain_KD[i] = kd;
+
         }
         // robot->joints->SetTorques(torques);
         robot->joints->SetDesiredPositions(positions);

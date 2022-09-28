@@ -28,7 +28,8 @@ JointModules::JointModules(
       lower_joint_limits_(lower_joint_limits),
       upper_joint_limits_(upper_joint_limits),
       max_joint_velocities_(max_joint_velocities),
-      check_joint_limits_(true)
+      check_joint_limits_(true),
+      motor_numbers_(motor_numbers)
 {
     n_ = static_cast<int>(motor_numbers.size());
     nd_ = (n_ + 1) / 2;
@@ -70,9 +71,9 @@ JointModules::JointModules(
     zero_vector_.fill(0.);
     safety_damping_.resize(n_);
     safety_damping_.fill(safety_damping);
-    motor_driver_enabled_.resize(nd_);
+    motor_driver_enabled_.resize(6);
     motor_driver_enabled_.fill(false);
-    motor_driver_errors_.resize(nd_);
+    motor_driver_errors_.resize(6);
     motor_driver_errors_.fill(0);
 
     gear_ratios_.fill(gear_ratios);
@@ -115,7 +116,7 @@ void JointModules::ParseSensorData()
         enabled_(i) = motors_[i]->get_is_enabled();
     }
 
-    for (int i = 0; i < nd_; i++)
+    for (int i = 0; i < 6; i++)
     {
         motor_driver_enabled_(i) = robot_if_->motor_drivers[i].IsEnabled();
         motor_driver_errors_(i) = robot_if_->motor_drivers[i].GetErrorCode();
@@ -127,14 +128,29 @@ void JointModules::Enable()
     // TODO: Enable this again.
     SetZeroCommands();
 
-    // Enable all motors and cards.
-    for (int i = 0; i < (n_ + 1) / 2; i++)
+    for (int i = 0; i < 6; i++)
     {
-        robot_if_->motor_drivers[i].motor1->Enable();
-        robot_if_->motor_drivers[i].motor2->Enable();
-        robot_if_->motor_drivers[i].EnablePositionRolloverError();
-        robot_if_->motor_drivers[i].SetTimeout(0);
-        robot_if_->motor_drivers[i].Enable();
+        const int motor1_index = 2 * i;
+        const int motor2_index = 2 * i + 1;
+
+        bool using_motor1 =  (motor_numbers_.array() == motor1_index).any();
+        bool using_motor2 =  (motor_numbers_.array() == motor2_index).any();
+
+        if (using_motor1 || using_motor2){
+            if (using_motor1)
+            {
+                msg_out_ << "Enabling Motor " << motor1_index << " on driver " << i  << std::endl;
+                robot_if_->motor_drivers[i].motor1->Enable();
+            }
+            if (using_motor2)
+            {
+                msg_out_ << "Enabling Motor " << motor1_index << " on driver " << i  << std::endl;
+                robot_if_->motor_drivers[i].motor2->Enable();
+            }
+            robot_if_->motor_drivers[i].EnablePositionRolloverError();
+            robot_if_->motor_drivers[i].SetTimeout(0);
+            robot_if_->motor_drivers[i].Enable();
+        }
     }
 }
 
@@ -202,6 +218,7 @@ void JointModules::SetZeroCommands()
 
 void JointModules::RunSafetyController()
 {
+    //msg_out_ << "Safety Controller " << std::endl;
     SetZeroCommands();
     SetVelocityGains(safety_damping_);
 }
@@ -395,9 +412,10 @@ bool JointModules::HasError()
 
     // Check the status of the cards.
     bool print_error = false;
-    for (int i = 0; i < nd_; i++)
+    // for (int i = 0; i < nd_; i++)
+    for (int i = 0; i < 6; i++)
     {
-        if (robot_if_->motor_drivers[i].error_code != 0)
+        if (robot_if_->motor_drivers[i].error_code != 0 && motor_driver_enabled_(i))
         {
             if (print_error || motor_drivers_error_counter++ % 2000 == 0)
             {

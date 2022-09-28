@@ -31,6 +31,7 @@ class JointModules
 protected:
     std::shared_ptr<MasterBoardInterface> robot_if_;
     std::vector<Motor*> motors_;
+    
 
     Eigen::VectorXd gear_ratios_;
     Eigen::VectorXd motor_constants_;
@@ -60,6 +61,8 @@ protected:
     int nd_;
 
     bool check_joint_limits_;
+
+    Eigen::VectorXi motor_numbers_;
 
     std::ostream& msg_out_ = std::cout;
 

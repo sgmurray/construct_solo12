@@ -202,6 +202,7 @@ void JointModules::SetZeroCommands()
 
 void JointModules::RunSafetyController()
 {
+    msg_out_ << "joint_modules.cpp " << "running safety controller" << std::endl;
     SetZeroCommands();
     SetVelocityGains(safety_damping_);
 }

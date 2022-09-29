@@ -1,66 +1,48 @@
 robot:
-    interface: eno1
+    interface: enp3s0
     joint_modules:
-        # motor_numbers: [1]
-        # motor_constants: 0.025
-        # gear_ratios: 9.
-        # max_currents: 12.
-        # reverse_polarities: [
-        #     false
-        # ]
-        # lower_joint_limits: [
-        #     -0.9
-        # ]
-        # upper_joint_limits: [
-        #     0.9
-        # ]
-        # max_joint_velocities: 80.
-        # safety_damping: 0.2
-        # motor_numbers: [5]
-        # motor_constants: 0.025
-        # gear_ratios: 9.
-        # max_currents: 12.
-        # reverse_polarities: [
-        #     false
-        # ]
-        # lower_joint_limits: [
-        #     -1.45
-        # ]
-        # upper_joint_limits: [
-        #     1.45
-        # ]
-        # max_joint_velocities: 80.
-        # safety_damping: 0.2
-        motor_numbers: [0, 3, 2]
+        motor_numbers: [8]
         motor_constants: 0.025
         gear_ratios: 9.
         max_currents: 12.
         reverse_polarities: [
-            false, true, true
+            false
         ]
         lower_joint_limits: [
-            -0.9, -1.45, -2.8
+            -0.9
         ]
         upper_joint_limits: [
-            0.9,  1.45,  2.8
+            0.9
         ]
         max_joint_velocities: 80.
         safety_damping: 0.2
-
+        motor_constants: 0.025
+        gear_ratios: 9.
+        max_currents: 12.
+        reverse_polarities: [
+            false
+        ]
+        lower_joint_limits: [
+            -1.45
+        ]
+        upper_joint_limits: [
+            1.45
+        ]
+        max_joint_velocities: 80.
+        safety_damping: 0.2
     imu:
         rotate_vector: [1, 2, 3]
         orientation_vector: [1, 2, 3, 4]
 joint_calibrator:
     # Can be either POS, NEG, ALT or AUTO
     search_methods: [
-      POS, POS, POS
+      POS
     ]
     position_offsets: [
-       #-0.04073
-       0.0, 0.0, 0.0
+       0.0
     ]
-    calib_order: [1, 0, 0]
-    calib_pos: [0.0, 0.0, 0.0]
+    calib_order: [1]
+    calib_pos: [0.0]
     Kp: 5.
     Kd: 0.05
     T: 1.

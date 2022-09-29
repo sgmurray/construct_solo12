@@ -1,7 +1,7 @@
 robot:
     interface: enp3s0
     joint_modules:
-        motor_numbers: [0]
+        motor_numbers: [8]
         motor_constants: 0.025
         gear_ratios: 9.
         max_currents: 12.

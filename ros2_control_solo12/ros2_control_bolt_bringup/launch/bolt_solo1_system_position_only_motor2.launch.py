@@ -72,7 +72,7 @@ def generate_launch_description():
     base_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([ThisLaunchFileDir(), "/bolt_solo1_test_one_joint_motor2.launch.py"]),
         launch_arguments={
-            "description_file": "system_solo1_motor_2.ros2_control.xacro",
+            "description_file": "system_solo1_motor8_description.urdf.xacro",
             "prefix": prefix,
             "use_fake_hardware": use_fake_hardware,
             "fake_sensor_commands": fake_sensor_commands,

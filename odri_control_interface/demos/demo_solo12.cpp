@@ -8,9 +8,9 @@ using namespace odri_control_interface;
 #include <iostream>
 #include <stdexcept>
 
-typedef Eigen::Matrix<double, 12, 1> Vector12d;
+// typedef Eigen::Matrix<double, 12, 1> Vector12d;
 //typedef Eigen::Matrix<double, 8, 1> Vector8d;
-// typedef Eigen::Matrix<double, 1, 1> Vector1d;
+typedef Eigen::Matrix<double, 1, 1> Vector1d;
 //typedef Eigen::Matrix<double, 3, 1> Vector3d;
 
 int main()
@@ -21,9 +21,9 @@ int main()
     //auto robot = RobotFromYamlFile(CONFIG_SOLO12_YAML);
     
     std::cout << "here 1: " << std::endl;
-    //auto robot = RobotFromYamlFile(CONFIG_SOLO12_ONE_JOINT_YAML);
+    auto robot = RobotFromYamlFile(CONFIG_SOLO12_ONE_JOINT_YAML);
     //auto robot = RobotFromYamlFile(CONFIG_SOLO12_NO_J1_YAML);
-    auto robot = RobotFromYamlFile(CONFIG_SOLO12_YAML);
+    // auto robot = RobotFromYamlFile(CONFIG_SOLO12_YAML);
     std::cout << "here 2: " << std::endl;
     robot->Start();
     std::cout << "here 3: " << std::endl;
@@ -37,23 +37,21 @@ int main()
     //     +1.4;
     // 
 
-    // Vector1d des_pos;
-    // des_pos << 0.0;
 
     // Initialize the communication, session, joints, wait for motors to be ready
     // and run the joint calibration.
     // robot->Initialize(des_pos);
 
     // Initialize simple pd controller.
-    Vector12d des_pos;
-    des_pos << 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0;
+    // Vector12d des_pos;
+    // des_pos << 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0;
 
-    Vector12d torques;
+    // Vector12d torques;
 
-    Vector12d positions;
-    Vector12d velocities;
-    Vector12d gain_KP;
-    Vector12d gain_KD;
+    // Vector12d positions;
+    // Vector12d velocities;
+    // Vector12d gain_KP;
+    // Vector12d gain_KD;
 
     // Vector8d des_pos;
     // des_pos << 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0;
@@ -65,14 +63,14 @@ int main()
     // Vector8d gain_KD;
 
     
-    // Vector1d des_pos;
-    // des_pos << 0.0;
-    // Vector1d torques;
+    Vector1d des_pos;
+    des_pos << 0.0;
+    Vector1d torques;
 
-    // Vector1d positions;
-    // Vector1d velocities;
-    // Vector1d gain_KP;
-    // Vector1d gain_KD;
+    Vector1d positions;
+    Vector1d velocities;
+    Vector1d gain_KP;
+    Vector1d gain_KD;
 
     // Vector3d des_pos;
     // des_pos << 0.0, 0.0, 0.0;
@@ -102,7 +100,7 @@ int main()
         auto vel = robot->joints->GetVelocities();
 
         // Compute PD control on the zero position.
-        for (int i = 0; i < 12; i++)
+        for (int i = 0; i < 1; i++)
         //for (int i = 0; i < 3; i++)
         {
             double ref = des_pos[i] + amplitude * sin(2 * M_PI * freq * t);
@@ -111,14 +109,16 @@ int main()
             positions[i] = ref;
             velocities[i] = 0.0;
             torques[i] = 0.0;
-            if (i == 0 || i == 5){
-                gain_KP[i] = 0;
-                gain_KD[i] = kd;
-            }
-            else{
-                gain_KP[i] = kp;
-                gain_KD[i] = kd;
-            }
+            // if (i == 0 || i == 5){
+            //     gain_KP[i] = 0;
+            //     gain_KD[i] = kd;
+            // }
+            // else{
+            //     gain_KP[i] = kp;
+            //     gain_KD[i] = kd;
+            // }
+            gain_KP[i] = kp;
+            gain_KD[i] = kd;
         }
         // robot->joints->SetTorques(torques);
         robot->joints->SetDesiredPositions(positions);

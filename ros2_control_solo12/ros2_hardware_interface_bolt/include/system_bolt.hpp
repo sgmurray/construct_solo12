@@ -76,6 +76,13 @@ typedef Matrix<long, 12, 1> Vector12l;
 
 typedef Matrix<int, 12, 1> Vector12i;
 
+
+typedef Matrix<double, 1, 1> Vector1d;
+typedef Matrix<bool, 1, 1> Vector1b;
+typedef Matrix<long, 1, 1> Vector1l;
+
+typedef Matrix<int, 1, 1> Vector1i;
+
 // typedef Matrix<int, 6, 1> Vector6i;
 /** @brief Eigen shortcut for vector of size 3. */
 typedef Matrix<long, 3, 1> Vector3l;

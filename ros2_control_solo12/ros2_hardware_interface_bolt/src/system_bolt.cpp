@@ -423,8 +423,7 @@ return_type SystemBoltHardware::start()
   // Initialize Robot
   // robot_ = RobotFromYamlFile(info_.hardware_parameters["bolt_config_yaml"]);
   robot_ = RobotFromYamlFile(info_.hardware_parameters["odri_config_yaml"]);
-
-
+  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware"),"SystemBoltHardware::start(): Define the robot from a yaml file done!");
 
   Eigen::Vector12d des_pos;
   // des_pos << 0.0, 0.7, -1.4, -0.0, 0.7, -1.4, 0.0, -0.7, +1.4, -0.0, -0.7,
@@ -433,30 +432,36 @@ return_type SystemBoltHardware::start()
 
   //robot_->Initialize(des_pos);
   robot_->Start();
+  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware"),"SystemBoltHardware::start(): robot->Start() method done!");
   robot_->WaitUntilReady();
+  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware"),"SystemBoltHardware::start(): robot->WaitUntilReady() method done!");
+  
 
   // set some default values
   for (const hardware_interface::ComponentInfo & joint : info_.joints) {
     if (std::isnan(hw_states_[joint.name].position)) {
-      if (joint.name == "FL_HAA" || joint.name == "HR_HFE"){
-        hw_states_[joint.name] = {0.0, 0.0, 0.0, 0.0, 0.0};
-        hw_commands_[joint.name] = {0.0, 0.0, 0.0, 0.0, 0.0};
-      }
-      else{
-        hw_states_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
-        hw_commands_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
-      }
+      // if (joint.name == "FL_HAA" || joint.name == "HR_HFE"){
+      //   hw_states_[joint.name] = {0.0, 0.0, 0.0, 0.0, 0.0};
+      //   hw_commands_[joint.name] = {0.0, 0.0, 0.0, 0.0, 0.0};
+      // }
+      // else{
+      //   hw_states_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
+      //   hw_commands_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
+      // }
+      hw_states_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
+      hw_commands_[joint.name] = {0.0, 0.0, 0.0, 5.0, 0.05};
     }
     joint_name_to_array_index_[joint.name]=0;
   }
 
+  // build the joint name to array index
   uint idx=0;
   for (auto it = joint_name_to_array_index_.begin();
             it != joint_name_to_array_index_.end(); ++it) {
     joint_name_to_array_index_[it->first]=idx++;
 
   }
-
+  RCLCPP_INFO(rclcpp::get_logger("SystemBoltHardware"),"SystemBoltHardware::start(): build the joint name to array index, done!");
 
   status_ = hardware_interface::status::STARTED;
 

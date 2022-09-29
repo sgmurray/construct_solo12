@@ -113,13 +113,13 @@ macro(create_demo source)
   target_link_libraries(${demo_name} ${PROJECT_NAME})
   target_compile_definitions(
     ${demo_name}
+    PUBLIC CONFIG_SOLO1_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo1.yaml"
     PUBLIC CONFIG_SOLO12_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo12.yaml"
-    PUBLIC CONFIG_SOLO12_ONE_JOINT_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo12_one_joint.yaml"
-    PUBLIC CONFIG_SOLO12_NO_J1_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo12_no_j1.yaml"
     PUBLIC CONFIG_TESTBENCH_YAML="${PROJECT_SOURCE_DIR}/demos/config_testbench.yaml")
   install(TARGETS ${demo_name} DESTINATION bin)
 
 endmacro(create_demo source)
 
+create_demo(demo_solo1)
 create_demo(demo_solo12)
 create_demo(demo_testbench)

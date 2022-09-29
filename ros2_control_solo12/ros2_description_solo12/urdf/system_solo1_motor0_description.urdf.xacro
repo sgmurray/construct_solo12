@@ -32,7 +32,7 @@ https://github.com/open-dynamic-robot-initiative/robot_properties_bolt/blob/mast
     </xacro:if>
   </xacro:if>
 
-  <xacro:include filename="$(find ros2_description_solo12)/ros2_control/system_solo1.ros2_control.xacro" />
+  <xacro:include filename="$(find ros2_description_solo12)/ros2_control/system_solo1_motor_0.ros2_control.xacro" />
 
   <!-- ros_control plugin for Gazebo --> 
   

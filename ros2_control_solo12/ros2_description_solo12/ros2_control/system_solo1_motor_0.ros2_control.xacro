@@ -22,7 +22,7 @@
           <xacro:unless value="${use_fake_hardware}">
             <plugin>ros2_control_bolt/SystemBoltHardware</plugin>
             <param name="bolt_yaml">2.0</param>
-            <xacro:property name="prop_bolt_config_yaml" value="$(find ros2_description_solo12)/config/config_solo1.yaml" />
+            <xacro:property name="prop_bolt_config_yaml" value="$(find ros2_description_solo12)/config/config_solo1_motor_nr_0.yaml" />
             <param name="odri_config_yaml">${prop_bolt_config_yaml}</param>
             <param name="desired_starting_position">0.0 0.0 0.0 0.0 0.0 0.0</param>
 

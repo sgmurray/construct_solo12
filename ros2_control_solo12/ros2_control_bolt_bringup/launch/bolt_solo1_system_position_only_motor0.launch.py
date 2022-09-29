@@ -70,7 +70,7 @@ def generate_launch_description():
     robot_controller = LaunchConfiguration("robot_controller")
 
     base_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([ThisLaunchFileDir(), "/bolt_rz_test_one_joint.launch.py"]),
+        PythonLaunchDescriptionSource([ThisLaunchFileDir(), "/bolt_solo1_test_one_joint_motor0.launch.py"]),
         launch_arguments={
             "description_file": "system_solo1_description.urdf.xacro",
             "prefix": prefix,

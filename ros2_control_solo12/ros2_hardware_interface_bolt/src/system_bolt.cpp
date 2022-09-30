@@ -543,12 +543,19 @@ SystemBoltHardware::write()
   // Eigen::Vector12d gain_KP;
   // Eigen::Vector12d gain_KD;
 
-  Eigen::Vector1d positions;
-  Eigen::Vector1d velocities;
-  Eigen::Vector1d torques;
+  // Eigen::Vector1d positions;
+  // Eigen::Vector1d velocities;
+  // Eigen::Vector1d torques;
 
-  Eigen::Vector1d gain_KP;
-  Eigen::Vector1d gain_KD;
+  // Eigen::Vector1d gain_KP;
+  // Eigen::Vector1d gain_KD;
+
+  Eigen::Vector3d positions;
+  Eigen::Vector3d velocities;
+  Eigen::Vector3d torques;
+
+  Eigen::Vector3d gain_KP;
+  Eigen::Vector3d gain_KD;
 
   for (const hardware_interface::ComponentInfo & joint : info_.joints) {
       if ((control_mode_[joint.name]==control_mode_t::POS_VEL_EFF_GAINS) ||

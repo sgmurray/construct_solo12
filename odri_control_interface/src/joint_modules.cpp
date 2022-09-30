@@ -144,7 +144,7 @@ void JointModules::Enable()
             }
             if (using_motor2)
             {
-                msg_out_ << "Enabling Motor " << motor1_index << " on driver " << i  << std::endl;
+                msg_out_ << "Enabling Motor " << motor2_index << " on driver " << i  << std::endl;
                 robot_if_->motor_drivers[i].motor2->Enable();
             }
             robot_if_->motor_drivers[i].EnablePositionRolloverError();

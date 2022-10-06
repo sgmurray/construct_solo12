@@ -117,6 +117,18 @@ macro(create_demo source)
     PUBLIC CONFIG_SOLO1_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo1.yaml"
     PUBLIC CONFIG_SOLO3_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo3.yaml"
     PUBLIC CONFIG_SOLO12_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo12.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR4_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor4.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR8_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor8.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR2_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor2.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR10_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor10.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR9_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor9.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR3_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor3.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR5_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor5.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR11_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor11.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR6_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor6.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR1_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor1.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR7_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor7.yaml"
+    PUBLIC CONFIG_SOLO_MOTOR0_YAML="${PROJECT_SOURCE_DIR}/demos/config_solo_motor0.yaml"
     PUBLIC CONFIG_TESTBENCH_YAML="${PROJECT_SOURCE_DIR}/demos/config_testbench.yaml")
   install(TARGETS ${demo_name} DESTINATION bin)
 
@@ -126,3 +138,4 @@ create_demo(demo_solo1)
 create_demo(demo_solo12)
 create_demo(demo_testbench)
 create_demo(demo_solo3)
+create_demo(demo_1motor)
